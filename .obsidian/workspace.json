@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "233e953e9e050cc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0ecdc9a53fc032e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "466f5deaa06fcea3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b5c89edc373b0cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "895fd34c60438888",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e29d837793bc5bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "872d680c78893ceb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95fb85d678c280fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa37e1405979809b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d85e3f8ad8fe09a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd866b9f92c88ee2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b406572f2b2582ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5961de16a02adcf8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "a8867fd1762f2bef",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "78006e299d2fce50",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b406572f2b2582ab",
+  "lastOpenFiles": [
+    "2024-08-28.md",
+    "2024-10-10.md",
+    "2024-08-07.md",
+    "Untitled 3.md",
+    "docs/tutorial/installation/install_python.md",
+    "Untitled 4.md",
+    "graph.dot",
+    "graph.dot.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "journey for implementing a SaaS.md",
+    "CoreIdea.md",
+    "Differentiation.md",
+    "journey.md",
+    "it_infrastructure.png",
+    "2024-07-26.md",
+    "2024-07-24.md",
+    "2024-07-22.md",
+    "2024-07-10.md",
+    "docs/meteomarche.md",
+    "Screenshot 2024-07-11 224908.png",
+    "Screenshot 2024-05-13 233855.png",
+    "docs/readme.md",
+    "docs/index.md",
+    "docs/environment.md",
+    "docs/tutorial/tutorial_git.md",
+    "docs/tutorial/tutorial.md",
+    "docs/architecture/Architecture.md",
+    "docs/tutorial/installation/install_docker.md",
+    "Untitled.canvas",
+    "docs.zip",
+    "docs/Untitled",
+    "docs/architecture"
+  ]
+}

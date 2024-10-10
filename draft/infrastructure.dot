@@ -1,0 +1,130 @@
+digraph SAAS {
+    node [shape=plaintext];
+    rankdir=LR;
+
+    subgraph cluster_Network {
+        label = "Network";
+        LoadBalancer [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>LOAD BALANCER</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.100</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Load Balancer</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">HAProxy</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">N/A</td></tr>
+            </table>
+        >];
+    }
+
+    subgraph cluster_Web {
+        label = "Web";
+        WebServer1 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>WEB SERVER 1</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.101</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Apache</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">PHP</td></tr>
+            </table>
+        >];
+        WebServer2 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>WEB SERVER 2</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.102</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Apache</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">PHP</td></tr>
+            </table>
+        >];
+    }
+
+    subgraph cluster_Database {
+        label = "Database";
+        Database1 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>DATABASE 1</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.201</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Database</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">MySQL</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">SQL</td></tr>
+            </table>
+        >];
+        Database2 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>DATABASE 2</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.202</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Database</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">PostgreSQL</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">SQL</td></tr>
+            </table>
+        >];
+        Database3 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>DATABASE 3</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.203</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Database</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">MongoDB</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">NoSQL</td></tr>
+            </table>
+        >];
+    }
+
+    subgraph cluster_Processing {
+        label = "Processing";
+        TreatmentServer1 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>TREATMENT SERVER 1</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.301</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Custom Algo</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">Python</td></tr>
+            </table>
+        >];
+        TreatmentServer2 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>TREATMENT SERVER 2</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.302</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Custom Algo</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">Java</td></tr>
+            </table>
+        >];
+    }
+
+    subgraph cluster_Analytics {
+        label = "Analytics";
+        AnalyticsServer [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>ANALYTICS SERVER</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.401</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Analytics</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">R</td></tr>
+            </table>
+        >];
+    }
+
+    subgraph cluster_Caching {
+        label = "Caching";
+        CacheServer [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td bgcolor="lightgrey" colspan="2"><b>CACHE SERVER</b></td></tr>
+                <tr><td align="left"><b>IP ADDRESS:</b></td><td align="left">192.168.1.501</td></tr>
+                <tr><td align="left"><b>TYPE:</b></td><td align="left">Server</td></tr>
+                <tr><td align="left"><b>APPLICATION:</b></td><td align="left">Redis</td></tr>
+                <tr><td align="left"><b>LANGUAGE:</b></td><td align="left">N/A</td></tr>
+            </table>
+        >];
+    }
+
+    LoadBalancer -> { WebServer1 WebServer2 }
+    WebServer1 -> { Database1 Database2 Database3 }
+    WebServer2 -> { Database1 Database2 Database3 }
+    Database1 -> { TreatmentServer1 TreatmentServer2 }
+    Database2 -> { TreatmentServer1 TreatmentServer2 }
+    Database3 -> { TreatmentServer1 TreatmentServer2 }
+    TreatmentServer1 -> AnalyticsServer
+    TreatmentServer2 -> AnalyticsServer
+    AnalyticsServer -> CacheServer
+
+    graph [splines=true, overlap=false, layout="neato"];
+}

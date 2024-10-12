@@ -1,7 +1,11 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Obuntu",
+  "cssTheme": "GitHub Theme",
   "baseFontSize": 10,
   "baseFontSizeAction": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "interfaceFontFamily": "Calibri",
+  "accentColor": "",
+  "textFontFamily": "Calibri",
+  "monospaceFontFamily": "Consolas"
 }

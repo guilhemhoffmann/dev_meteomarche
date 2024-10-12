@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e0ecdc9a53fc032e",
+        "id": "212c8d5bcc2c0379",
         "type": "tabs",
         "children": [
           {
-            "id": "466f5deaa06fcea3",
+            "id": "f6fef809f9b56d83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "datastructures/Data Structure SQL.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "datastructures/Data Structure SQL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "datastructures/Data Structure SQL.md"
+              }
             }
           },
           {
@@ -123,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "datastructures/Data Structure SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,11 +156,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "b406572f2b2582ab",
+  "active": "6e29d837793bc5bb",
   "lastOpenFiles": [
+    "datastructures/Data structures.md",
+    "datastructures/Data Structure SQL.md",
+    "().md",
+    "docs/architecture/Architecture.md",
+    "notes/2024-10-11.md",
+    "datastructures",
+    "(#sql-query-calendar-dates).md",
+    "notes/2024-10-12.md",
+    "draft/Untitled.md",
+    "notes/2024-07-10.md",
+    "Untitled.canvas",
+    "it_infrastructure.png",
+    "draft/CoreIdea.md",
+    "notes/2024-10-10.md",
     "2024-08-28.md",
     "2024-10-10.md",
     "2024-08-07.md",
@@ -168,22 +191,9 @@
     "CoreIdea.md",
     "Differentiation.md",
     "journey.md",
-    "it_infrastructure.png",
     "2024-07-26.md",
-    "2024-07-24.md",
-    "2024-07-22.md",
-    "2024-07-10.md",
-    "docs/meteomarche.md",
     "Screenshot 2024-07-11 224908.png",
     "Screenshot 2024-05-13 233855.png",
-    "docs/readme.md",
-    "docs/index.md",
-    "docs/environment.md",
-    "docs/tutorial/tutorial_git.md",
-    "docs/tutorial/tutorial.md",
-    "docs/architecture/Architecture.md",
-    "docs/tutorial/installation/install_docker.md",
-    "Untitled.canvas",
     "docs.zip",
     "docs/Untitled",
     "docs/architecture"

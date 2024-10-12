@@ -7,23 +7,38 @@
     "iconColor": null,
     "recentlyUsedIcons": [
       "LiSquirrel",
+      "LiPenBox",
       "📓",
       "LiSheet",
-      "LiHelpingHand",
-      "LiBookText"
+      "LiHelpingHand"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "rule": "2024*",
+        "icon": "📓",
+        "for": "everything",
+        "order": 0
+      },
+      {
+        "rule": ".*SQL.*",
+        "icon": "LiSquirrel",
+        "for": "everything",
+        "order": 1,
+        "color": "#4016da",
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
-    "iconInTitlePosition": "above",
-    "iconInFrontmatterEnabled": false,
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "inline",
+    "iconInFrontmatterEnabled": true,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsBackgroundCheckEnabled": false,
@@ -36,7 +51,7 @@
   "docs": "LiBookText",
   "docs/tutorial": "LiHelpingHand",
   "meteomarche_fulldata.2021-12-10-12-59": "LiSheet",
-  "datastructures/Data structures.md": "LiSheet",
   "notes": "📓",
-  "datastructures/Data Structure SQL.md": "LiSquirrel"
+  "draft": "LiPenBox",
+  "datastructures/Data structures.md": "LiSheet"
 }

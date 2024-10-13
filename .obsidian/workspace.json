@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "212c8d5bcc2c0379",
+        "id": "1973826ca328b028",
         "type": "tabs",
         "children": [
           {
-            "id": "f6fef809f9b56d83",
+            "id": "45aa7ceab7ad69d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "datastructures/Data Structure SQL.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -160,20 +160,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6e29d837793bc5bb",
+  "active": "45aa7ceab7ad69d9",
   "lastOpenFiles": [
+    "sql/db_structures.sql",
+    "sql",
+    "data/sql",
+    "data/db_structures.sql",
+    "db/db_script.bat",
+    "data/data_structures.sql",
     "datastructures/Data structures.md",
     "datastructures/Data Structure SQL.md",
+    "it_infrastructure.png",
+    "(#sql-query-calendar-dates).md",
     "().md",
     "docs/architecture/Architecture.md",
     "notes/2024-10-11.md",
     "datastructures",
-    "(#sql-query-calendar-dates).md",
     "notes/2024-10-12.md",
     "draft/Untitled.md",
     "notes/2024-07-10.md",
     "Untitled.canvas",
-    "it_infrastructure.png",
     "draft/CoreIdea.md",
     "notes/2024-10-10.md",
     "2024-08-28.md",
@@ -191,7 +197,6 @@
     "CoreIdea.md",
     "Differentiation.md",
     "journey.md",
-    "2024-07-26.md",
     "Screenshot 2024-07-11 224908.png",
     "Screenshot 2024-05-13 233855.png",
     "docs.zip",

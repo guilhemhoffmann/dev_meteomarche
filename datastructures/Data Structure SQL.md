@@ -1,8 +1,6 @@
-[]()
 ## sql-query-calendar-dates 
 
 ```sql
-
 CREATE TABLE calendar_dates (`
   `calendar_id INTEGER PRIMARY KEY,`
   `calendar_date TEXT,`
@@ -13,7 +11,9 @@ CREATE TABLE calendar_dates (`
   `calendar_day_of_month INTEGER NOT NULL,`
   `event_description TEXT`
 `);`
-
+```
+## sql-query-holiday-calendar 
+```sql
 `CREATE TABLE holiday_calendar (`
   `holiday_id INTEGER PRIMARY KEY,`
   `currency_code TEXT NOT NULL,`
@@ -21,7 +21,8 @@ CREATE TABLE calendar_dates (`
   `holiday_name TEXT,`
   `UNIQUE (holiday_date, currency_code)`
 `);`
-
+```
+```sql
 `CREATE TABLE calendar_usd (`
   `calendar_usd_id INTEGER PRIMARY KEY,`
   `calendar_date TEXT NOT NULL,`
@@ -288,3 +289,6 @@ CREATE TABLE calendar_dates (`
 `);
 
 ```
+
+^c81b42
+

@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: C4iobex2021
+      MYSQL_DATABASE: dev_meteomarche
+      MYSQL_USER: mm_user
+      MYSQL_PASSWORD: mm_user
+    volumes:
+      - ./mysql-config:/etc/mysql/conf.d
+      - ./mysql-data:/var/lib/mysql
+      - ./mysql-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    networks:
+      - mysql_network
+
+networks:
+  mysql_network:
+    driver: bridge

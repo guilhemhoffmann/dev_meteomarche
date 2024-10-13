@@ -1,7 +1,8 @@
 
 ## Tables
 
-### Table: `calendar_dates` [[Data Structure SQL]]
+### Table: `calendar_dates` [[Data Structure SQL#^c81b42]]]
+
 sql
 
 | Column Name             | Type    | Description                              |
